@@ -34,6 +34,41 @@ The simulation is based on:
 
 ### Acceleration of a Planet
 
+
+# 🌍 Planetary Orbit Simulation using Python
+
+A computational physics project that simulates the orbital motion of **Earth and Jupiter around the Sun** using **Newtonian mechanics** and **numerical integration (Euler method)**.
+
+This project aims to build both **physical intuition** and **computational understanding** of how gravity, velocity, and mass govern planetary motion.
+
+---
+
+## 🔭 Project Overview
+
+This simulation models a simplified solar system where:
+
+- Earth and Jupiter orbit a fixed Sun in **2D space**
+- Gravitational interaction follows **Newton’s law of gravitation**
+- Motion is updated using **Euler numerical integration**
+
+### Key Concepts Demonstrated
+- Circular and elliptical orbits  
+- Escape velocity and collapse scenarios  
+- Effect of changing velocity and mass  
+- Numerical instability and limitations of Euler’s method  
+
+---
+
+## ⚙️ Physics & Mathematical Model
+
+The simulation is based on:
+
+- **Newton’s Universal Law of Gravitation**
+- **Newton’s Second Law of Motion**
+- **Euler Method for numerical integration**
+
+### Acceleration of a Planet
+
 ```
 
 a = G × M_sun / r²
