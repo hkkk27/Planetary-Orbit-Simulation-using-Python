@@ -1,117 +1,144 @@
+
 ```markdown
-# Planetary Orbit Simulation using Python
+# 🌍 Planetary Orbit Simulation using Python
 
-This project simulates the orbital motion of Earth and Jupiter around the Sun
-using Newton’s law of gravitation and numerical integration (Euler method).
+A computational physics project that simulates the orbital motion of **Earth and Jupiter around the Sun** using **Newtonian mechanics** and **numerical integration (Euler method)**.
 
-The goal of this project is to visually and computationally understand how
-gravitational force, velocity, and mass affect planetary motion.
+This project aims to build both **physical intuition** and **computational understanding** of how gravity, velocity, and mass govern planetary motion.
 
 ---
 
 ## 🔭 Project Overview
 
-- Simulates Earth and Jupiter orbiting the Sun in 2D space
-- Uses real-world approximate astronomical values
-- Demonstrates:
-  - Circular and elliptical orbits
-  - Escape velocity
-  - Effect of changing velocity and mass
-  - Limitations of Euler integration
+This simulation models a simplified solar system where:
 
-The Sun is fixed at the origin, and gravitational force acts on the planets.
+- Earth and Jupiter orbit a fixed Sun in **2D space**
+- Gravitational interaction follows **Newton’s law of gravitation**
+- Motion is updated using **Euler numerical integration**
+
+### Key Concepts Demonstrated
+- Circular and elliptical orbits  
+- Escape velocity and collapse scenarios  
+- Effect of changing velocity and mass  
+- Numerical instability and limitations of Euler’s method  
 
 ---
 
-## ⚙️ Physics & Mathematics Used
+## ⚙️ Physics & Mathematical Model
 
-- Newton’s Universal Law of Gravitation  
-- Newton’s Second Law of Motion  
-- Euler Numerical Integration  
+The simulation is based on:
 
-Acceleration of a planet:
+- **Newton’s Universal Law of Gravitation**
+- **Newton’s Second Law of Motion**
+- **Euler Method for numerical integration**
+
+### Acceleration of a Planet
+
 ```
 
-a = G * M_sun / r²
+a = G × M_sun / r²
 
 ````
+
+Where:
+- `G` is the gravitational constant  
+- `M_sun` is the mass of the Sun  
+- `r` is the distance from the Sun  
+
+The Sun is fixed at the origin and exerts gravitational force on the planets.
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Python 3
-- NumPy
-- Matplotlib (FuncAnimation)
+- **Python 3**
+- **NumPy** — vector and numerical computation
+- **Matplotlib** — visualization and animation (`FuncAnimation`)
 
 ---
 
 ## ▶️ How to Run the Simulation
 
-1. Clone the repository:
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/planetary-orbit-simulation.git
 ````
 
-2. Install dependencies:
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the simulation:
+### 3. Run the Simulation
 
 ```bash
 python orbital_simulation.py
 ```
 
+An animated visualization of planetary orbits will appear.
+
 ---
 
-## 📊 Experiments Performed
+## 📊 Experiments & Observations
+
+The following experiments were performed:
 
 * Same mass, different velocities
 * Reduced velocity → elliptical orbit
 * Very low velocity → collapse into the Sun
 * High velocity → escape trajectory
-* Effect of changing Sun’s mass
+* Effect of changing the Sun’s mass
 * Effect of changing planet mass
-* Negative velocity → reversed orbit direction
+* Negative velocity → reversed orbital direction
 
-All experiments and observations are explained in detail in the PDF report.
+📘 **All experiments, plots, and explanations are documented in the PDF report.**
 
 ---
 
 ## ⚠️ Limitations
 
-* Euler method introduces numerical drift
-* No planet–planet interaction
-* Sun is fixed (does not move)
-* 2D simulation only
+* Euler integration introduces numerical drift over long simulations
+* No planet–planet gravitational interaction
+* Sun is assumed stationary
+* Simulation is limited to **2D space**
 
 ---
 
 ## 🚀 Future Improvements
 
-* Use Runge-Kutta integration
-* Include planet-planet gravitational forces
-* Add more planets
-* Extend simulation to 3D
-* Allow Sun to move dynamically
+* Implement **Runge-Kutta (RK4)** integration
+* Include planet–planet gravitational forces
+* Add more planets (full solar system model)
+* Extend simulation to **3D space**
+* Allow the Sun to move dynamically
 
 ---
 
 ## 📘 Documentation
 
-Detailed explanation, equations, observations, and screenshots are available in:
+A detailed explanation of:
 
-**Planetary_Motion_Report.pdf**
+* Physical equations
+* Model assumptions
+* Experimental observations
+* Visual results
+
+is available in:
+
+**📄 Planetary_Motion_Report.pdf**
 
 ---
 
 ## 👤 Author
 
-Harshit Singh
+**Harshit Singh**
 Undergraduate Student
-Interest Areas: Simulation, Data Analysis
 
-```
+**Interest Areas:**
+
+* Computational Simulation
+* Data Analysis
+
+---
+
