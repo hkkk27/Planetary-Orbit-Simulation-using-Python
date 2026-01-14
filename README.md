@@ -33,9 +33,6 @@ The simulation is based on:
 ### Acceleration of a Planet
 
 
-```markdown
-
-
 
 ```
 
