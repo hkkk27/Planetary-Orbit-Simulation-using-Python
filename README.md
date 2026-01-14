@@ -1,4 +1,3 @@
-
 ```markdown
 # Planetary Orbit Simulation using Python
 
@@ -114,26 +113,5 @@ Detailed explanation, equations, observations, and screenshots are available in:
 Harshit Singh
 Undergraduate Student
 Interest Areas: Simulation, Data Analysis
-
-```
-
----
-
-## 4️⃣ requirements.txt
-
-
-```
-
-numpy
-matplotlib
-
-```
-
-That’s it.
-
----
-
----
-
 
 ```
