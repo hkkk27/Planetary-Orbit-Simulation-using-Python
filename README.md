@@ -1,5 +1,3 @@
-
-```markdown
 # 🌍 Planetary Orbit Simulation using Python
 
 A computational physics project that simulates the orbital motion of **Earth and Jupiter around the Sun** using **Newtonian mechanics** and **numerical integration (Euler method)**.
@@ -33,6 +31,9 @@ The simulation is based on:
 - **Euler Method for numerical integration**
 
 ### Acceleration of a Planet
+
+
+```markdown
 
 
 # 🌍 Planetary Orbit Simulation using Python
